@@ -1,0 +1,23 @@
+import React, {useState, useEffect} from 'react';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Navbar from './components/Navbar'
+import Landing from './components/Landing'
+import Store from './components/Store'
+
+
+
+function App() {
+    return (
+        <div>
+            <Router>
+                <Navbar/>
+                <Routes>
+                    <Route path='/' element={<Landing/>}/>
+                    <Route path='/Store' element={<Store/>}/>
+                </Routes>
+            </Router>            
+        </div>
+    )
+}
+
+export default App;
