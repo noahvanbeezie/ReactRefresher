@@ -3,8 +3,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import Store from './components/Store'
-
-
+import './styling/app.css'
 
 function App() {
     return (
