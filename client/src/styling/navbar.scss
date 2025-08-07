@@ -1,4 +1,10 @@
 .navbar {
     width: 100%;
-    background-color: lightgray;
+    height: 30px;
+    background-color: lightblue;
+    padding: 15px 0px 10px 20px;
+}
+
+.navbar * {
+    padding-left: 5px;
 }

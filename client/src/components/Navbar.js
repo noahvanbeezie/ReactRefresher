@@ -13,6 +13,8 @@ function Navbar(){
             <Link to="/Store">
                 <a>Store</a>
             </Link>
+            <input></input>
+            <button>SEARCH</button>
         </div>
     )
 }
